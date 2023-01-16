@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "minecraft:block/ender_chest_side",
+      "down": "block/ender_chest_bottom",
+      "up": "block/ender_chest_top",
+      "north": "block/ender_chest_front",
+      "east": "block/ender_chest_side",
+      "south": "block/ender_chest_side",
+      "west": "block/ender_chest_side"
+    }
+}

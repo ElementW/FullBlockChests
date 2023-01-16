@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fullblockchests",
+  "version": "${version}",
+
+  "name": "Full Block Chests",
+  "description": "Turn chests into full blocks and make them openable even with a block above, like before Beta 1.8.",
+  "authors": [
+    "ElementW"
+  ],
+  "contact": {
+    "sources": "https://github.com/ElementW/FullBlockChests",
+    "issues": "https://github.com/ElementW/FullBlockChests/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/fullblockchests/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "fullblockchests.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  }
+}
