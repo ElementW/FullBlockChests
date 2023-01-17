@@ -17,9 +17,15 @@
   "icon": "assets/fullblockchests/icon.png",
 
   "environment": "*",
+  "accessWidener" : "fullblockchests.accesswidener",
   "mixins": [
     "fullblockchests.mixins.json"
   ],
+  "entrypoints": {
+    "client": [
+      "net.elementw.fullblockchests.DefaultResources"
+    ]
+  },
 
   "depends": {
     "fabricloader": ">=0.14.6",

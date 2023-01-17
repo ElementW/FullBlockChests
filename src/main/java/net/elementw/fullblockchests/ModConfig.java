@@ -11,7 +11,9 @@ import java.util.Properties;
 
 public class ModConfig {
     public static ModConfig INSTANCE = new ModConfig();
-    private static final Logger LOGGER = LoggerFactory.getLogger("FullBlockChests");
+    public static final String MOD_NAME = "Full Block Chests";
+    public static final String MOD_ID = "fullblockchests";
+    public static final Logger LOGGER = LoggerFactory.getLogger("FullBlockChests");
 
     public boolean disableBlockedCheck;
     public boolean reskinModdedChests;
