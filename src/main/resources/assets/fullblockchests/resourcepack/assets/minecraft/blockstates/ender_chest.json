@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fullblockchests:block/ender_chest"
+    },
+    "facing=west": {
+      "model": "fullblockchests:block/ender_chest",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "fullblockchests:block/ender_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fullblockchests:block/ender_chest",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "minecraft:block/chest_side",
+      "down": "minecraft:block/chest_top",
+      "up": "minecraft:block/chest_top",
+      "north": "minecraft:block/chest_front",
+      "east": "minecraft:block/chest_side",
+      "south": "minecraft:block/chest_side",
+      "west": "minecraft:block/chest_side"
+    }
+}
